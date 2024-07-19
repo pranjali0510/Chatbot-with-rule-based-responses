@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equip="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Pranjali's Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="images/x-icon" img>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Pranjali Sharma</h1>
+            <h2>Software Engineer</h2>
+            <a href="https://drive.google.com/file/d/1i6J10B6miHigP6Hjoztwctg5F7HG9bwt/view?usp=sharing" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        A highly motivated B.Tech graduate in Computer Science with a solid academic background and a fervent interest in software development, specializing in cybersecurity. Actively seeking a position where I can leverage my technical expertise, analytical skills, and commitment to continuous improvement to drive innovative projects within a dynamic and collaborative team environment. My strong interest in AI, combined with my proficiency in cybersecurity, coupled with my problem-solving abilities, enables me to contribute effectively to cutting-edge solutions and ensure robust security measures in the digital landscape.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="May 2023 – July 2023">
+                <h3>Salesforce Developer Virtual Internship</h3>
+                
+                <p>
+                    I achieved the following milestones: Lightning Web Components (LWC), API Developer Super Set, Salesforce Trailhead modules: Salesforce Fundamentals. 
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="education">
+        <h2 class = "heading">Education</h2>
+        <div class="education-block">
+            <h3>SRM Institute of Science and Technology</h3>
+            <span class="education-date">September 2020 - June 2024</span>
+            <h4> B.Tech in Computer Science with specialization in Cyber Security</h4>
+            <ul>
+                <li>
+                    Current CGPA: 9.22
+                </li>
+            </ul>
+
+            <h3>Satyakaam International School</h3>
+            <span class="education-date">2019 - 2020</span>
+            <h4>CBSE Board</h4>
+            <h4>Intermediate</h4>
+            <ul>
+                <li>Aggregate: 89.2%</li>
+            </ul>
+
+            <h3>Satyakaam International School</h3>
+            <span class="education-date">2017 - 2018</span>
+            <h4>CBSE Board</h4>
+            <h4>High School</h4>
+            <ul>
+                <li>Aggregate: 89%</li>
+            </ul>
+
+        </div>
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/chatbot.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3> Chatbot with rule - based responses</h3>
+                        <ul style="text-align: left;">
+                            <li> This project is a Python-based chatbot named Alex, designed to engage in basic conversational interactions 
+                                with users. Utilizing the Natural Language Toolkit (NLTK) for natural language processing tasks and 
+                                regular expressions for pattern matching, Alex responds to user inputs with predefined responses. 
+                                 The project showcases the integration of fundamental NLP techniques and demonstrates how a basic chatbot 
+                                can be implemented in Python to facilitate interactive user experiences.</li>
+                        </ul>
+                        <p style="text-align: left;margin:20px ;" >Duration: July 2023 - Present</p>
+                        <p style="text-align: left;margin:20px ;">Project Type: Artificial Development</p>
+                        <p style="text-align: left;margin:20px ;">Links: 
+                            <a href="https://github.com/nikita2880/AstroCinema.git" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+</body>
